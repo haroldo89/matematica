@@ -20,8 +20,8 @@ public class matematica {
 	}
 
 	 
-	int min(int a, int b){
-		if(a>b)return a;
+	static int min(int a, int b){
+		if(a<b)return a;
 		return b;
 	}
 
